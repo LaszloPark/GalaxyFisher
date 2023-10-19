@@ -1,0 +1,68 @@
+{
+    "confirm": {
+        "enable": true,
+        "path": "confirm.png",
+        "rect": [
+            591,
+            483,
+            652,
+            513
+        ],
+        "threshold": 0.85
+    },
+    "fish_caught": {
+        "enable": true,
+        "path": "fish_caught.png",
+        "rect": [
+            561,
+            572,
+            683,
+            602
+        ],
+        "threshold": 0.7
+    },
+    "fish_not_caught": {
+        "enable": false,
+        "path": "fish_not_caught.png",
+        "rect": [
+            554,
+            234,
+            674,
+            264
+        ],
+        "threshold": 0.8
+    },
+    "pull": {
+        "enable": true,
+        "path": "pull.png",
+        "rect": [
+            1078,
+            550,
+            1170,
+            615
+        ],
+        "threshold": 0.8
+    },
+    "start_fishing": {
+        "enable": true,
+        "path": "start_fishing.png",
+        "rect": [
+            1026,
+            623,
+            1163,
+            657
+        ],
+        "threshold": 0.8
+    },
+    "bar": {
+        "enable": true,
+        "path": "bar.png",
+        "rect": [
+            414,
+            560,
+            829,
+            579
+        ],
+        "threshold": 0.95
+    }
+}
