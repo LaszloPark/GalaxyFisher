@@ -144,7 +144,7 @@ class GalaxyFisher():
             tense = ImgUtil.match_pixel_color(bar_on_screen[center_row:],ImgUtil.WHITE)
             if tense:
                 tense = tense[1]
-                if count >= 10:
+                if count >= 2:
                     Log.info("当前张力：" + "=" * (tense//10) + "▼" + "=" * ((width - tense)//10))
                     count = 0
                 else:
@@ -166,7 +166,6 @@ class GalaxyFisher():
 
 
     def reel(self,duration=1000):
-        Log.info("收线。")
         self._is_reeling = True
         rect = self.config_dict["pull"]["rect"]
         x1 = randrange(rect[0], rect[2])
@@ -176,7 +175,6 @@ class GalaxyFisher():
 
 
     def loose(self):
-        Log.info("松线。")
         self._adb_util.cancelSwipe()
         time.sleep(self.loose_time)
         self._is_reeling = False

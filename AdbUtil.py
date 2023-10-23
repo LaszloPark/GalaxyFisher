@@ -60,8 +60,6 @@ class AdbUtil:
 
 
     def swipeScreen(self, x1, y1, x2, y2,duration=1000):
-        # TEST
-        print("swipe:",x1,y1,x2,y2)
         if self.device is not None :
             self.swipe_path = [x1,y1,x2,y2]
             self.device.input_swipe(x1, y1, x2, y2, int(random.uniform(0.5, 1.0) * duration))
