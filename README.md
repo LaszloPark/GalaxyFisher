@@ -23,4 +23,4 @@
 
 # One More Thing
 部分代码来自[世界弹射物语护肝宝](https://github.com/AshenOneYe/WFHelper)，特此感谢。  
-另外，求些大腿：8693013815760（我是弱鸡XD）
+另外，求些好友：8693013815760（我是弱鸡XD）
